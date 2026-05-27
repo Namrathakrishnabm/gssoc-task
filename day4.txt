@@ -1,0 +1,7 @@
+        Day 4 - Linux Commands part 4
+         -* matches any number of characters 
+         -? matches one character
+         -man command read the online manual  page for a command
+         -whatis command brief description of a command
+         apropos keyword match commands with keyword in their man pages
+
