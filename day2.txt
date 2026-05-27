@@ -1,0 +1,18 @@
+DAY 2 - Basic linux commands part 2
+    -Copied files from file1 to file2 using cp command
+    -moved file1 to file2 using mv command
+    -removed file using rm command
+    -removed directory using rmdir command
+    -to clear the terminal i used clear command so that the $prompt will come at the top of the window
+    -to display the content of a file on the directory i used cat command 
+    -to write the content of afile onto the screen a page at atime i used less command
+    -by usinh head it will display the first 10 lines of the file to the screen
+    -by using tail it will display the last 10 lines of the file to the screen
+    -to search a word we fist type less command and then instead of typing q type/worname it will display the lines that contained these wordname
+    -grep is used to search files or specified words and it is case sensitive 
+    -using -i both lower and upper case will be ignored and displayed all together
+    -to display line that do not match we use -v
+    -to precede each matching line with the line number we use -n
+    -to print only the total count of matched lines we used -c
+    -wc command is then used to find the no of lines a file has
+    -finished
