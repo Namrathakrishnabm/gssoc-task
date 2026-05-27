@@ -1,8 +1,0 @@
-   Day 4 - Linux Commands part 4
-      -* is called a wildcard ad will match with none or more characters in a file
-      -to list all files in the current directory starting with a word just use ls wordname*
-      -to list all files in the current directory that ends with a word just use ls *wordname
-      -the character ? will match exactly one character so by using ls ?wordname it will give exact files which has a character before that word
-      -In order to list all files contacing c code in our home directory  we only need to type ls * .c
-      -man command is used to read the manual page for a particular command for eg by typing man wc it gives the entire manual page 
-      -whatis  wc gives a one line description of the command 
