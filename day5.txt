@@ -1,0 +1,23 @@
+      Day 5 - Linux commands part 5
+       -By typing ls -l,we will get the lots of details about the contentiont of our directory
+       -The given content will be in the form permission owner group size time filename, here permission will be a 10 symbol string consisting of the symbols d,r,w,x,- and if it starts with d then it means its adirectory otherwise - will be the start symbol
+the remaining 9 sybols indicates the permissions,or access rights and are taken as 3 groups of 3
+          -left group of 3 gives the file permission for the use 
+          -the middle group gives the permission for the group of people to whome the file belongs
+          -the rightmost group gives the permission fo all others
+       -r/- indicates read permission
+       -w/- indicates write permission
+       -x/- indicates execution permission
+       - r allows user to list files in the directory
+       -w means that users may delete files from the directory
+       -x means the right to access files in the directory
+       -chmod command is used to change the a file mode for eg to give read and write permission on the file biglist to all we can use chmod a+rw biglist
+       -To see information about our processor , with their associted  PID and status we use pd
+       -By typing sleep 10 ,this will wait 10 seconds before returning the command prompt $
+       -To run sleep in the background tpe sleep 10 &
+       -bg is used to background the suspended job
+       -jobs is use dto list the current jobs
+       -fg $l used to foreground job number 1
+       -kill $1 used to kill job number 1
+       -ps is used to list current processes
+       -kill 26152 kill process number 26152
