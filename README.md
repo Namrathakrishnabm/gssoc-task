@@ -123,5 +123,69 @@ Learning Outcome
 
  Day 4 task completed successfully
 
+ Day 5 - Linux Permissions, Processes and Jobs
+
+ Tasks Completed
+
+ Today I learned about Linux file permissions, process management and job control commands.
+
+ Topics Covered
+
+ File Permissions
+
+ - Used `ls -l` to view detailed file information.
+ - Learned the permission format displayed by Linux.
+ - Understood the three permission groups:
+  - User (Owner)
+  - Group
+  - Others
+
+ Permission Types
+
+ - `r` - Read permission
+ - `w` - Write permission
+ - `x` - Execute permission
+
+ Directory Permissions
+
+ - Read (`r`) allows listing files in a directory.
+ - Write (`w`) allows creating and deleting files in a directory.
+ - Execute (`x`) allows accessing files and entering directories.
+
+ Changing Permissions
+
+ - Learned to use the `chmod` command to modify file and directory permissions.
+ - Practiced adding and removing permissions using symbolic notation.
+
+ Processes and Jobs
+
+ - Used `sleep 10` to create a temporary process.
+ - Used `sleep 10 &` to run a process in the background.
+ - Learned job control commands:
+  - `jobs` – List active jobs
+  - `bg` – Resume a suspended job in the background
+  - `fg %1` – Bring Job 1 to the foreground
+  - `kill %1` – Terminate Job 1
+
+ Process Information
+
+ - Used `ps` to display running processes.
+ - Learned how to terminate a process using:
+  - `kill PID`
+
+ Commands Practiced
+
+ 
+ ls -l
+ chmod
+ sleep 10
+ sleep 10 &
+ jobs
+ bg
+ fg %1
+ kill %1
+ ps
+ kill PID
+
 
 This task helped me understand the basics of Linux terminal usage and improved my confidence in using Ubuntu for development tasks.
