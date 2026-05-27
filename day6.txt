@@ -1,0 +1,17 @@
+       Day 6  - Linux commands part 6
+        -quota check our current quota and how much of it u have used 
+        -df command reports on the space left on the file system
+        -du -h command outputs the number of MB used by each subdirectory
+        -compress used to compress a file
+        -To uncompress the  file use the uncompress command
+        -gzip also compress files more efficient than compress
+        -to unzip the file,use the gunzip command
+        -To report on all files in our home directory use file *
+        -history keeps an ordered list of all command that u have entered
+        -!! recall last command
+        -!-3 recall third most recent command
+        -!5 recall 5th command in list
+        -!grep recall last command starting with grep
+        -echo $OSTYPE gives the current operating system we r using
+        -to show all values of these variables type printenv | less
+        -cat .bashrc view the hidden file that is executed each time you login
