@@ -23,11 +23,52 @@ I learned how to navigate directories, create folders and files, view file conte
 - `echo`
 - `history`
 
- What I Did
+ What I Did in Day1 and Day2
 - Created folders and text files
 - Added task logs with timestamps
 - Counted lines in files
 - Viewed and edited files using terminal commands
 - Explored command history and file management
+
+ Day 3 - Linux File Handling Practice
+
+
+Today I practiced basic Linux file handling and text processing commands inside the `GSSOC` directory.
+
+ Commands Practiced
+
+- `cat`
+  - Created and viewed files
+- `cat > filename`
+  - Added content into files
+- `cat >> filename`
+  - Appended content to existing files
+- `cat file1 file2 > outputfile`
+  - Combined multiple files into a single file
+- `sort`
+  - Sorted file contents
+- `sort < filename > outputfile`
+  - Stored sorted output into another file
+- `wc -l`
+  - Counted number of lines in files
+- Pipe operator `|`
+  - Combined commands together
+
+ Files Created
+- `list1`
+- `list2`
+- `biglist`
+- `slist`
+- `gssoc-log.txt`
+
+ Learning Outcome
+- Understood Linux input/output redirection
+- Practiced file creation and modification
+- Learned file merging and sorting
+- Learned line counting using `wc`
+- Practiced Linux command chaining using pipes
+
+ Status
+ Day 3 task completed successfully
 
 This task helped me understand the basics of Linux terminal usage and improved my confidence in using Ubuntu for development tasks.
