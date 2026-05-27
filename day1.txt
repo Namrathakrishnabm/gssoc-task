@@ -1,0 +1,7 @@
+Day 1 -Linux basics task
+  -Created GSSOC directory
+  -Navigated using cd command
+  -list all the folder using ls commands
+  -get familiar with c .,cd .. and all 
+  - explored cd /root ,cd /etc,cd /home with ls,cd,pwd
+  -get familiared with cd ~/ and all
