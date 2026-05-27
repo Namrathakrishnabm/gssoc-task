@@ -1,0 +1,8 @@
+Day 3 - Linux commands part 3
+   -if we type cat without specifying a file to read ,it reads the standard input and at the end of file, copies it to the standard output
+   -to create a file with a list of fruit name we type cat >> filename and then press enter and type the fruit names and by ^D it copies these names into that filename 
+   -to display the result we can just type cat filename
+   -to concatenate two file into another file we use the command cat file1 file2 > file3
+   -to sort the content in a file alphabetically ,use the command sort < file3
+   -to output the sorted list to a file ,use sort < file3 > slist
+   -use cat to read the content of the file
