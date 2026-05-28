@@ -1,0 +1,313 @@
+    1  28/05/26 05:28:51sudo apt update
+    2  28/05/26 05:28:51sudo apt upgrade -y
+    3  28/05/26 05:28:51sudo apt update
+    4  28/05/26 05:28:51sudo apt upgrade -y
+    5  28/05/26 05:28:51sudo apt update
+    6  28/05/26 05:28:51sudo apt upgrade -y
+    7  28/05/26 05:28:51sudo apt update
+    8  28/05/26 05:28:51sudo apt upgrade -y
+    9  28/05/26 05:28:51sudo apt update
+   10  28/05/26 05:28:51sudo apt upgrade -y
+   11  28/05/26 05:28:51sudo apt update
+   12  28/05/26 05:28:51sudo apt full-upgrade -y
+   13  28/05/26 05:28:51touch gssoc-log.txt
+   14  28/05/26 05:28:51mkdir GSSOC
+   15  28/05/26 05:28:51cd GSSOC
+   16  28/05/26 05:28:51touch gssoc-log.txt
+   17  28/05/26 05:28:51echo "$(date) - TASK STARTED" >> gssoc-log.txt
+   18  28/05/26 05:28:51ls
+   19  28/05/26 05:28:51ls -a
+   20  28/05/26 05:28:51mkdir icfoss
+   21  28/05/26 05:28:51ls
+   22  28/05/26 05:28:51cd icfoss
+   23  28/05/26 05:28:51mkdir backups
+   24  28/05/26 05:28:51cd backups
+   25  28/05/26 05:28:51cd
+   26  28/05/26 05:28:51cd GSSOC
+   27  28/05/26 05:28:51cd icfoss
+   28  28/05/26 05:28:51ls -a
+   29  28/05/26 05:28:51cd .
+   30  28/05/26 05:28:51cd ..
+   31  28/05/26 05:28:51cd
+   32  28/05/26 05:28:51pwd
+   33  28/05/26 05:28:51cd GSSOC
+   34  28/05/26 05:28:51cd/root
+   35  28/05/26 05:28:51cd/home
+   36  28/05/26 05:28:51cd /root
+   37  28/05/26 05:28:51cd /ls
+   38  28/05/26 05:28:51cd /
+   39  28/05/26 05:28:51ls
+   40  28/05/26 05:28:51pwd
+   41  28/05/26 05:28:51cd GSSOC
+   42  28/05/26 05:28:51cd
+   43  28/05/26 05:28:51cd GSSOC
+   44  28/05/26 05:28:51cd /etc
+   45  28/05/26 05:28:51ls
+   46  28/05/26 05:28:51pwd
+   47  28/05/26 05:28:51cd
+   48  28/05/26 05:28:51cd GSSOC
+   49  28/05/26 05:28:51cd /home
+   50  28/05/26 05:28:51ls
+   51  28/05/26 05:28:51pwd
+   52  28/05/26 05:28:51cd
+   53  28/05/26 05:28:51cd GSSOC
+   54  28/05/26 05:28:51cd
+   55  28/05/26 05:28:51ls icfoss
+   56  28/05/26 05:28:51cd GSSOC
+   57  28/05/26 05:28:51ls icfoss
+   58  28/05/26 05:28:51ls backups
+   59  28/05/26 05:28:51ls icfoss/backups
+   60  28/05/26 05:28:51ls ~/icfoss
+   61  28/05/26 05:28:51ls ~
+   62  28/05/26 05:28:51ls ~/ ..
+   63  28/05/26 05:28:51echo "$(date) - TASK COMPLETED" >> gssoc-log.txt
+   64  28/05/26 05:28:51cat gssoc-log.txt
+   65  28/05/26 05:28:51history
+   66  28/05/26 05:28:51git --version
+   67  28/05/26 05:28:51sudo apt install git 
+   68  28/05/26 05:28:51git --version
+   69  28/05/26 05:28:51git config --global user.name "Namrathakrishnabm"
+   70  28/05/26 05:28:51git config --global user.email "namrathakrishnabm@gmail.com"
+   71  28/05/26 05:28:51cd ~/GSSOC
+   72  28/05/26 05:28:51git init
+   73  28/05/26 05:28:51git status
+   74  28/05/26 05:28:51git add .
+   75  28/05/26 05:28:51git commit -m "Initial GSSoC task"
+   76  28/05/26 05:28:51git remove add origin
+   77  28/05/26 05:28:51git remote add origin
+   78  28/05/26 05:28:51git remote add origin http://github.com/Namrathakrishnabm/gssoc-task
+   79  28/05/26 05:28:51git push -u origin main
+   80  28/05/26 05:28:51git status
+   81  28/05/26 05:28:51git add .
+   82  28/05/26 05:28:51git commit -m "First commit"
+   83  28/05/26 05:28:51ls
+   84  28/05/26 05:28:51git add .
+   85  28/05/26 05:28:51git add gssoc-log.txt
+   86  28/05/26 05:28:51git commit -m "First commit"
+   87  28/05/26 05:28:51ls
+   88  28/05/26 05:28:51git add .
+   89  28/05/26 05:28:51git commit -m "First commit"
+   90  28/05/26 05:28:51cd ~/GSSOC
+   91  28/05/26 05:28:51ls
+   92  28/05/26 05:28:51git add gssoc-log.txt
+   93  28/05/26 05:28:51git commit -m "First GSSoC Commit"
+   94  28/05/26 05:28:51git status
+   95  28/05/26 05:28:51git branch
+   96  28/05/26 05:28:51git branch -M main
+   97  28/05/26 05:28:51git remote add origin http://github.com/Namrathakrishnamb/gssoc-task.git
+   98  28/05/26 05:28:51git remote -v
+   99  28/05/26 05:28:51git push -u origin main
+  100  28/05/26 05:28:51cd ~/GSSOC
+  101  28/05/26 05:28:51nano day1.txt
+  102  28/05/26 05:28:51git add .
+  103  28/05/26 05:28:51git commit -m "Day 1 - Linux basics completed"
+  104  28/05/26 05:28:51git push
+  105  28/05/26 05:28:51history
+  106  28/05/26 05:28:51cd ~/GSSOC
+  107  28/05/26 05:28:51echo "$(date) - Day 2 TASK STARTED" >> gssoc-log.txt
+  108  28/05/26 05:28:51cd ~/icfoss
+  109  28/05/26 05:28:51cd icfoss
+  110  28/05/26 05:28:51cp /var/log/syslog syslog.txt
+  111  28/05/26 05:28:51ls
+  112  28/05/26 05:28:51cp syslok.txt syslog.bak
+  113  28/05/26 05:28:51cp syslog.txt syslog.bak
+  114  28/05/26 05:28:51ls
+  115  28/05/26 05:28:51mv syslog.bak backups
+  116  28/05/26 05:28:51ls
+  117  28/05/26 05:28:51ls backups
+  118  28/05/26 05:28:51cp syslog.txt tempfile.txt
+  119  28/05/26 05:28:51ls
+  120  28/05/26 05:28:51rm tempfile.txt
+  121  28/05/26 05:28:51ls
+  122  28/05/26 05:28:51mkdir tempstuff
+  123  28/05/26 05:28:51ls
+  124  28/05/26 05:28:51rmdir tempstuff
+  125  28/05/26 05:28:51ls
+  126  28/05/26 05:28:51clear
+  127  28/05/26 05:28:51cat syslog.txt
+  128  28/05/26 05:28:51less syslog.txt
+  129  28/05/26 05:28:51head syslog.txt
+  130  28/05/26 05:28:51head -5 syslog.txt
+  131  28/05/26 05:28:51tail syslog.txt
+  132  28/05/26 05:28:51less syslog.txt
+  133  28/05/26 05:28:51grep thermal syslog.txt
+  134  28/05/26 05:28:51grep Thermal syslog.txt
+  135  28/05/26 05:28:51grep -i thermal syslog.txt
+  136  28/05/26 05:28:51grep -i 'Unable to find a sensor 'syslog.txt
+  137  28/05/26 05:28:51grep -i 'Unable to find a sensor' syslog.txt
+  138  28/05/26 05:28:51v
+  139  28/05/26 05:28:51grep -v thermal syslog.txt
+  140  28/05/26 05:28:51grep -n thermal syslog.txt
+  141  28/05/26 05:28:51grep -c thermal syslog.txt
+  142  28/05/26 05:28:51grep -ivc thermal syslog.txt
+  143  28/05/26 05:28:51wc -w syslog.txt
+  144  28/05/26 05:28:51wc -1 syslog.txt
+  145  28/05/26 05:28:51wc -l syslog.txt
+  146  28/05/26 05:28:51history
+  147  28/05/26 05:28:51echo "$(date) -Day 2 TASK COMPLETED" >> gssoc-log.txt
+  148  28/05/26 05:28:51cd .
+  149  28/05/26 05:28:51cd ..
+  150  28/05/26 05:28:51echo "$(date) -Day 2 TASK COMPLETED" >> gssoc-log.txt
+  151  28/05/26 05:28:51git add .
+  152  28/05/26 05:28:51git commit -m "Day 2 completed"
+  153  28/05/26 05:28:51git push
+  154  28/05/26 05:28:51cd ~/GSSOC
+  155  28/05/26 05:28:51nano day2.txt
+  156  28/05/26 05:28:51git add .
+  157  28/05/26 05:28:51git commit -m "Day 2 - Linux Basics commands part 2 completed"
+  158  28/05/26 05:28:51git push
+  159  28/05/26 05:28:51cd ~/GSSOC
+  160  28/05/26 05:28:51echo "$(date) -Day 3 TASK STARTED" >> gssoc-log.txt
+  161  28/05/26 05:28:51cat
+  162  28/05/26 05:28:51cat > list1
+  163  28/05/26 05:28:51cat list1
+  164  28/05/26 05:28:51cat > list2
+  165  28/05/26 05:28:51cat list2
+  166  28/05/26 05:28:51cat >> list1
+  167  28/05/26 05:28:51cat list1
+  168  28/05/26 05:28:51cat list1 list2 > biglist
+  169  28/05/26 05:28:51cat biglist
+  170  28/05/26 05:28:51sort
+  171  28/05/26 05:28:51sort < biglist
+  172  28/05/26 05:28:51sort < biglist > slist
+  173  28/05/26 05:28:51cat slist
+  174  28/05/26 05:28:51cat biglist | sort
+  175  28/05/26 05:28:51cat biglist | wc -1
+  176  28/05/26 05:28:51cat biglist | wc -l
+  177  28/05/26 05:28:51echo "$(date) -Day 3 TASK COMPLETED" >> gssoc-log.txt
+  178  28/05/26 05:28:51history
+  179  28/05/26 05:28:51git add .
+  180  28/05/26 05:28:51git commit -m "Day 3 completed "
+  181  28/05/26 05:28:51git push
+  182  28/05/26 05:28:51git pull origin main --allow-unrealated-histories
+  183  28/05/26 05:28:51git pull origin mark --allow-unrelated-histories
+  184  28/05/26 05:28:51git pull origin main --allow-unrelated-histories
+  185  28/05/26 05:28:51git pull origin main --allow-unrelated-histories --no-rebase
+  186  28/05/26 05:28:51git push origin main
+  187  28/05/26 05:28:51cd ~/GSSOC
+  188  28/05/26 05:28:51nano day3.txt
+  189  28/05/26 05:28:51git add .
+  190  28/05/26 05:28:51git commit -m "Day 2 -Linux commands part 3 completed"
+  191  28/05/26 05:28:51git push
+  192  28/05/26 05:28:51ssh bandit0@bandit.labs.overthewire.org -p 2220
+  193  28/05/26 05:28:51ssh bandit1@bandit.labs.overthewire.org -p 2220
+  194  28/05/26 05:28:51ssh bandit2@bandit.labs.overthewire.org -p 2220
+  195  28/05/26 05:28:51ssh bandit3@bandit.labs.overthewire.org -p 2220
+  196  28/05/26 05:28:51ssh bandit4@bandit.labs.overthewire.org -p 2220
+  197  28/05/26 05:28:51ssh bandit5@bandit.labs.overthewire.org -p 2220
+  198  28/05/26 05:28:51ssh bandit6@bandit.labs.overthewire.org -p 2220
+  199  28/05/26 05:28:51ssh bandit7@bandit.labs.overthewire.org -p 2220
+  200  28/05/26 05:28:51ssh bandit8@bandit.labs.overthewire.org -p 2220
+  201  28/05/26 05:28:51ssh bandit9@bandit.labs.overthewire.org -p 2220
+  202  28/05/26 05:28:51ssh bandit10@bandit.labs.overthewire.org -p 2220
+  203  28/05/26 05:28:51ssh bandit11@bandit.labs.overthewire.org -p 2220
+  204  28/05/26 05:28:51ssh bandit12@bandit.labs.overthewire.org -p 2220
+  205  28/05/26 05:28:51cd ~/GSSOC
+  206  28/05/26 05:28:51echo "$(date) - DAY 4 RASK STARTED" >> gssoc-log.txt
+  207  28/05/26 05:28:51cd icfoss
+  208  28/05/26 05:28:51ls list*
+  209  28/05/26 05:28:51cd .
+  210  28/05/26 05:28:51cd ..
+  211  28/05/26 05:28:51ls list*
+  212  28/05/26 05:28:51ls *list
+  213  28/05/26 05:28:51ls ?list
+  214  28/05/26 05:28:51ls *.c
+  215  28/05/26 05:28:51cd ..
+  216  28/05/26 05:28:51ls *.c
+  217  28/05/26 05:28:51ls * .c
+  218  28/05/26 05:28:51cd GSSOC
+  219  28/05/26 05:28:51man wc
+  220  28/05/26 05:28:51whatis wc
+  221  28/05/26 05:28:51echo "$(date) - DAY 4 TASK COMPLETED" >> gssoc-log.txt
+  222  28/05/26 05:28:51git add .
+  223  28/05/26 05:28:51git commit -m "Day 4 completed successfully"
+  224  28/05/26 05:28:51git push
+  225  28/05/26 05:28:51git config --global --unset credential.helper
+  226  28/05/26 05:28:51git remove -v
+  227  28/05/26 05:28:51git remote -v
+  228  28/05/26 05:28:51git push
+  229  28/05/26 05:28:51git config --global --unset credential.helper
+  230  28/05/26 05:28:51rm ~/.git-credentials
+  231  28/05/26 05:28:51git remote -v
+  232  28/05/26 05:28:51git push
+  233  28/05/26 05:28:51git pull origin main --allow-unrelated-histories --no-rebase
+  234  28/05/26 05:28:51git push
+  235  28/05/26 05:28:51cd ~/GSSOC
+  236  28/05/26 05:28:51nano day4.txt
+  237  28/05/26 05:28:51cd ~/GSSOC
+  238  28/05/26 05:28:51nano day4.txt
+  239  28/05/26 05:28:51cd ~/GSSOC
+  240  28/05/26 05:28:51nano day2.txt
+  241  28/05/26 05:28:51cd ~/GSSOC 
+  242  28/05/26 05:28:51nano day4.txt
+  243  28/05/26 05:28:51git add .
+  244  28/05/26 05:28:51git commit -m "Day 4 - Linux commands part  4 completed"
+  245  28/05/26 05:28:51git push
+  246  28/05/26 05:28:51history
+  247  28/05/26 05:28:51ssh bandit12@bandit.labs.overthewire.org -p 2220
+  248  28/05/26 05:28:51ssh bandit13@bandit.labs.overthewire.org -p 2220
+  249  28/05/26 05:28:51cd ..
+  250  28/05/26 05:28:51cd ~/GSSOC
+  251  28/05/26 05:28:51ssh bandit13@bandit.labs.overthewire.org -p 2220
+  252  28/05/26 05:28:51ps
+  253  28/05/26 05:28:51echo "$(date) - Day 5 TASK COMPLETED" >> gssoc-log.txt
+  254  28/05/26 05:28:51git add .
+  255  28/05/26 05:28:51git commit -m "Day 5 Completed successfully"
+  256  28/05/26 05:28:51git push
+  257  28/05/26 05:28:51git pull origin main --allow-unrelated-histories --no-rebase
+  258  28/05/26 05:28:51git push
+  259  28/05/26 05:28:51cd ~/GSSOC
+  260  28/05/26 05:28:51nano day5.txt
+  261  28/05/26 05:28:51git add .
+  262  28/05/26 05:28:51git commit -m "Day 5 - Linux commands part 5 "
+  263  28/05/26 05:28:51git push
+  264  28/05/26 05:28:51rm day4.txt.save
+  265  28/05/26 05:28:51rm day4.txt.save.1
+  266  28/05/26 05:28:51ls
+  267  28/05/26 05:28:51git add .
+  268  28/05/26 05:28:51git commit -m "Removed backup files"
+  269  28/05/26 05:28:51git push
+  270  28/05/26 05:28:51history
+  271  28/05/26 05:28:51cd ~/GSSOC
+  272  28/05/26 05:28:51echo "$(date) - Day 6 TASK STARTED" >> gssoc-log.txt
+  273  28/05/26 05:28:51quota -s
+  274  28/05/26 05:28:51sudo apt install quota
+  275  28/05/26 05:28:51quota -s
+  276  28/05/26 05:28:51df
+  277  28/05/26 05:28:51du -h
+  278  28/05/26 05:28:51cd icfoss
+  279  28/05/26 05:28:51ls -l syslog.txt
+  280  28/05/26 05:28:51compress syslog.txt
+  281  28/05/26 05:28:51sudo apt install ncompress
+  282  28/05/26 05:28:51compress syslog.txt
+  283  28/05/26 05:28:51-l
+  284  28/05/26 05:28:51ls -l
+  285  28/05/26 05:28:51uncompress syslog.txt.Z
+  286  28/05/26 05:28:51gzip syslog.txt
+  287  28/05/26 05:28:51gunzip syslog.txt.gz
+  288  28/05/26 05:28:51file *
+  289  28/05/26 05:28:51history
+  290  28/05/26 05:28:51gunzip syslog.txt.gz
+  291  28/05/26 05:28:51sudo apt update
+  292  28/05/26 05:28:51grep -ivc thermal syslog.txt
+  293  28/05/26 05:28:51echo $OSTYPE
+  294  28/05/26 05:28:51printenv | less
+  295  28/05/26 05:28:51echo $HISTSIZE
+  296  28/05/26 05:28:51set | less
+  297  28/05/26 05:28:51cat .bashrc
+  298  28/05/26 05:28:51echo "$(date) - Day 6 TASK COMPLETED" >> gssoc-log.txt
+  299  28/05/26 05:28:51git add.
+  300  28/05/26 05:28:51git add .
+  301  28/05/26 05:28:51git commit -m "Day 6 completed successfully"
+  302  28/05/26 05:28:51git push
+  303  28/05/26 05:28:51git pull origin main --allow-unrelated-histories --no-rebase
+  304  28/05/26 05:28:51git push
+  305  28/05/26 05:28:51cd ..
+  306  28/05/26 05:28:51cd ~/GSSOC
+  307  28/05/26 05:28:51nano day6.txt
+  308  28/05/26 05:28:51git add .
+  309  28/05/26 05:28:51git commit -m "Day 6 - Linux commands part 6 completed"
+  310  28/05/26 05:28:51git push
+  311  28/05/26 05:28:51history
+  312  28/05/26 05:30:13HISTTIMEFORMAT="%d/%m/%y %T"
+  313  28/05/26 05:30:36history >assignment1.txt
