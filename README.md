@@ -176,16 +176,55 @@ Learning Outcome
  Commands Practiced
 
  
- ls -l
- chmod
- sleep 10
- sleep 10 &
- jobs
- bg
- fg %1
- kill %1
- ps
- kill PID
+ - `ls -l`
+ - `chmod`
+ - `sleep 10`
+ - `sleep 10 &`
+ - `jobs`
+ - `bg`
+ - `fg %1`
+ - `kill %1`
+ - `ps`
+ - `kill PID`
 
 
 This task helped me understand the basics of Linux terminal usage and improved my confidence in using Ubuntu for development tasks.
+
+
+Day 6 - Linux Commands Part 6
+
+Tasks Completed
+
+Today I practiced Linux commands related to disk usage, compression, command history, environment variables, and shell configuration files.
+
+Topics Covered
+
+Disk Usage and Storage
+
+- Used `quota` to check disk quota information.
+- Used `df` to display available disk space on file systems.
+- Used `du -h` to view disk usage of directories and files in a human-readable format.
+
+File Compression
+
+- Learned about the `compress` command for compressing files.
+- Learned about the `uncompress` command for extracting compressed files.
+- Studied `gzip`, which provides better compression than `compress`.
+- Learned to extract gzip-compressed files using `gunzip`.
+
+Command History
+
+- Used `history` to display previously executed commands.
+- Learned command recall shortcuts:
+  - `!!` – Repeat the last command
+  - `!-3` – Execute the third most recent command
+  - `!5` – Execute command number 5 from history
+  - `!grep` – Execute the most recent command starting with "grep"
+
+Environment Variables
+
+- Used `echo $OSTYPE` to identify the operating system type.
+- Viewed environment variables using:
+  ```bash
+  printenv | less
+
