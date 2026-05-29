@@ -121,7 +121,7 @@ Learning Outcome
 
  Status
 
-✅ Day 4 task completed successfully
+ Day 4 task completed successfully
 
 
 This task helped me understand the basics of Linux terminal usage and improved my confidence in using Ubuntu for development tasks.
