@@ -175,7 +175,7 @@ Learning Outcome
 
  Commands Practiced
 
- ```bash
+ 
  ls -l
  chmod
  sleep 10
